@@ -1,0 +1,253 @@
+
+body{
+    background: #1c1c1b;
+}
+
+
+
+.container{
+    background: white;
+    margin: auto;
+    margin-top: 150px;
+    outline: 3px solid black;
+    outline-offset: -8px;
+    width: 400px;
+    height: 250px;
+}
+
+/* heading container */
+#heading{
+    float: left;
+    margin-top: 12px;
+    background: red;
+    height: 25px;
+    width: 90%;
+    margin-left: 18px
+}
+
+/* heading content */
+#heighlight{
+ display: inline;
+ margin-left: 10px;
+ font-weight: bolder;
+ font-family: 'Times New Roman';
+ font-size: large;
+ color: white;
+
+}
+/* heading content */
+#magozine{
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* seperating the area needed for rest content */
+#rest{
+   
+    height: 210px;
+    width:100%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+#italicsinput{
+    height: 100px;
+    width: 100%
+}
+
+#checkboxinput{
+    
+    font-family: serif;
+    height: 105px;
+    width: 100%;
+    float: left;
+    
+    
+}
+
+h5{
+    margin: 2px;
+}
+
+
+
+
+
+/* Italis name and details input secyion */
+.name{
+    float: left;
+}
+
+.italics-input{
+    border: none;
+    border-bottom: 2px solid rgb(37, 37, 37);
+    width: 150px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 0;
+    margin-bottom: -5px;
+}
+
+#lname{
+    margin-left: 25px;
+}
+
+#address{
+    width: 300px;
+}
+
+.details{
+    font-size: 10px;
+    margin: 0;
+}
+
+.area{
+   float: left;
+}
+
+
+#city {
+    width: 82px;
+}
+
+#state{
+    width:52px;
+    margin-left: 35px;
+}
+
+#zip{
+    width: 85px;
+    margin-left: 35px;
+}
+
+#label-state{
+    margin-left: 35px;
+}
+
+#label-zip{
+    margin-left:37px
+}
+
+label.details{
+    margin-top: 0;
+}
+
+
+.subscription{
+    float: left;
+}
+
+#first-year{
+    margin-top:-6px;
+    margin-left: 4px
+}
+
+
+
+
+
+/* checkbox */
+.main{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 15px;
+    }
+
+
+input[type=checkbox]{
+    visibility: hidden;
+}
+
+
+/* Custom check box */
+.retro{
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #dadae0;
+    box-shadow: 1px 1px black inset;
+}
+
+
+/* check mark to be shown in check box */
+.retro:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* display checkmark when checked */
+.main input:checked ~ .retro:after{
+    display: block;
+} 
+
+
+/* styling the tick mark using webkit */
+.main .retro:after{
+    left: 4px;
+    bottom: 1px;
+    width: 3px;
+    height: 7px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} 
+
+
+/* rest alignment */
+#box1{
+    margin-left: -132px;
+margin-top: 7px;
+}
+
+#box2{
+    margin-left: -140px;
+margin-top: 8px;
+}
+
+
+#box3{
+    margin-left: -133px;
+    margin-top: 7px;
+}
+
+#box4{
+    margin-left: -117px;
+    margin-top: 8px;
+}
+
+#box5{
+    margin-left: -107px;
+    margin-top: 3px;
+}
+
+#ctzone{
+    margin-top: -12px;
+}
+
+#fzone{
+    margin-top: -9px;
+}
+
+#catzone{
+    margin-top: -3px;
+}
+
+
+
+
+
+
+
+
+
+
+

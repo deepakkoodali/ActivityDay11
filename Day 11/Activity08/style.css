@@ -1,0 +1,28 @@
+
+
+body{
+    background:#1b1c1c ;
+}
+
+
+
+.container{
+    height: 300px;
+    width: 600px;
+    margin: 180px auto;
+    background: white;
+    padding: 7px;
+}
+
+table{
+    margin-top: 40px;
+    width: 100%;
+    height: 80%;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table ,td, th{
+    border: 1px solid black;
+    text-align: center;
+}

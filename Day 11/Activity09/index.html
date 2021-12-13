@@ -1,0 +1,69 @@
+
+<!-- Day - 11
+Activity 09. Write HTML input tags snippet to show default values for all Form elements. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="margin: 50px;">
+        <form action="#" method="GET">
+            <h2>Input tag snippet for all Form elements.</h2>
+            <input type="text" id="name" value="Deepak">
+            <label for="name">Name</label>
+            <br><br>
+            <select name="fav" id="prolang">
+                <option value="" >Select</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+                <option value="C#">C#</option>
+            </select>
+            <br><br>
+            <textarea name="textarea" id="tarea" cols="60" rows="10" placeholder="Type here..."></textarea>
+            <br><br>
+            <button type="button" onclick="alert('You are Awesome!')">Click Here</button>
+            <br><br>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+            </fieldset><br><br>
+            <label for="food">Choose your favourite food</label>
+            <input list="food">
+            <datalist id="food">
+                <option value="Idli"></option>
+                <option value="Vada"></option>
+                <option value="Dosa"></option>
+                <option value="Pongal"></option>
+            </datalist> <br><br>
+            <label for="framework">Choose a framework:</label>
+            <select name="framework" id="lang">
+              <optgroup label="Front-end">
+                <option value="react">React</option>
+                <option value="angular">Angular</option>
+              </optgroup>
+              <optgroup label="Back-end">
+                <option value="django">Django</option>
+                <option value="express">ExpressJS</option>
+              </optgroup>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

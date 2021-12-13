@@ -1,0 +1,123 @@
+
+<!-- Day - 11
+Activity 03. Design a contact us form with all fields as required.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        #first{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+        #second{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+
+        #third{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+
+        #forth{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+
+        #fifth{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+
+        #btn{
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        button{
+            margin-top: 10px;
+        }
+        
+        #fname{
+            width: 95%;
+            padding:10px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            
+        }
+
+        #lname{
+            width: 95%;
+            padding:10px;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        #mnum{
+            width: 95%;
+            padding:10px;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        #email{
+            width: 95%;
+            padding:10px;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        #tarea{
+            width: 95%;
+            padding:10px;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Contact Us</h1>
+    </div>
+<form action="_blank" method="get" id="form1">
+    <div id="first">
+        <label for="firstname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your First Name..">
+    </div>
+
+    <div id="second">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Lasr Name..">
+    </div>
+
+    <div id="third">
+        <label for="contactnumber">Mobile Number</label>
+        <input type="text" id="mnum" name="contactnumber" placeholder="Your Contact Number..">
+    </div>
+
+    <div id="forth">
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" placeholder="Your e-mail address..">
+    </div>
+
+    <div id="fifth">
+        <label for="textarea">Brief your concern</label>
+        <textarea name="textarea" id="tarea" placeholder="Write Something" style="height:100px"></textarea>
+    </div>
+
+    <div id="btn">
+        <button type="submit" value="submit" form="form1">Submit</button>
+    </div>
+</form>
+
+</body>
+</html>

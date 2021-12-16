@@ -1,0 +1,113 @@
+<!-- Day - 11
+Activity 07. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) 
+This file is just a copy of Activity 07 which is created for deploying in netlify-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Day 11/Activity07/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+          <p id="heighlight">Yes! I want to subcribe to <span id="magozine"> Mag-O-Zine</span></p>
+        </div>
+
+        <div id="rest">
+            <div id="italicsinput">
+
+                <div class="section1">
+                  <div class="name" id="fname">
+                      <input type="text" class="italics-input" id="firstname" value="Joe"><br>
+                      <label for="firstname" class="details">First Name</label>
+                  </div>
+
+                  <div class="name" id="lname">
+                      <input type="text" class="italics-input" id="lastname" value="Schmegeggie"><br>
+                      <label for="lastname" class="details">Last Name</label>
+                  </div>
+                </div>
+
+                <div class="section2">
+                    <div id="address">
+                        <input type="text" class="italics-input" id="address" value="1001 Washington Street"><br>
+                        <label for="address" class="details">Address</label>
+                    </div>
+
+                </div>
+                <div class="section3">
+                    <div class="area">
+                        <input type="text" class="italics-input" id="city" value="Antelope"><br>
+                        <label for="city" class="details" id="label-city">City</label>
+                    </div>
+                    <div class="area">
+                        <input type="text" class="italics-input" id="state" value="CA"><br>
+                        <label for="state" class="details" id="label-state">State</label>
+                    </div>
+                    <div class="area">
+                        <input type="text" class="italics-input" id="zip" value="99999"><br>
+                        <label for="zip" class="details" id="label-zip">Zip</label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="checkboxinput">
+             <div>
+                <div class="subscription">
+                    <h5 id="h51">Subscribe for:</h5>
+                </div>
+
+                <div class="subscription" id="first-year">
+                    <label for="year1" class="main">1 year ($19.95)
+                        <input type="checkbox" id="year1" checked>
+                        <span class="retro" id="box1"></span>
+                    </label>
+                </div>
+
+                <div class="subscription" id="second-year">
+                    <label for="year2" class="main"> 2 years ($35.00)
+                        <input type="checkbox" id="year2">
+                        <span class="retro" id="box2"></span>
+                    </label>
+                </div>
+             </div>
+
+             <div>
+                <div id="more-info">
+                    <h5 id="h52">Send me more information about:</h5>
+                </div>
+
+                <div id="ctzone">
+                    <label for="computerzone" class="main">Computer-Zine
+                        <input type="checkbox" id="computerzone" checked>
+                        <span class="retro" id="box3"></span>
+                    </label>
+                </div>
+
+                <div id="fzone">
+                    <label for="fishzone" class="main">Fishing-Zine
+                        <input type="checkbox" id="fishzone">
+                        <span class="retro" id="box4"></span>
+                    </label>
+                </div>
+
+                <div id="catzone">
+                    <label for="catzone" class="main">Cat-O-Zine
+                        <input type="checkbox" id="catzone" checked>
+                        <span class="retro" id="box5"></span>
+                    </label>
+                </div>
+            </div>
+
+                
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
